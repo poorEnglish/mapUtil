@@ -1,6 +1,7 @@
+const topColor = [0, 1, 1, 0.9];
+const bottomColor = [0, 0, 1, 0.9];
+
 export default {
-    topColor = [0, 1, 1, 0.9],
-    bottomColor = [0, 0, 1, 0.9],
     //画单个棱点
      addRegularPrism = function (point, segment, radius,map,object3Dlayer) {
         let cylinder = new AMap.Object3D.Mesh();
